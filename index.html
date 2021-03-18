@@ -21,7 +21,7 @@
                         <a class="logo link" href="./index.html" lang="en">Web<span class="header-logo">Studio</span></a>
                             <ul class="navigation-list list">
                                 <li class="navigation-item">
-                                        <a class="navigation-link link" href="">Студия</a>
+                                        <a class="navigation-link current link" href="">Студия</a>
                                     </li>
                                 <li class="navigation-item">
                                         <a class="navigation-link link" href="./portfolio.html">Портфолио</a>
@@ -58,7 +58,7 @@
             <section class="hero">
                 <div class="hero-center container">
                     <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-                    <button class="modal-button" type="button">Заказать услугу</button>
+                    <button class="modal-button" data-modal-open type="button">Заказать услугу</button>
                 </div>
             </section>
 
@@ -401,17 +401,17 @@
             </div>
          </footer>
 
-        <div class="backdrop">
+        <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-                <button class="modal-close-btn" type="button">
-                    <svg class="modal-close-btn-icon" width="18px" height="18px">
+                <button class="modal-close-btn" data-modal-close type="button">
+                    <svg class="modal-close-btn-icon">
                         <use href=./images/icons.svg#icon-close-black-18dp-2-1></use>
                     </svg>
                 </button>
             </div>
+         </div>
 
-        </div>
-
+        <script src="./js/modal.js"></script>
         </body>
         
         </html>
