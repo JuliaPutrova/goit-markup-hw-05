@@ -809,9 +809,11 @@ img {
 }
 
 .modal-close-btn-icon {
-  width: 11px;
-  height: 11px;
+  width: 18px;
+  height: 18px;
   fill: #000000;
+  display: flex;
+  align-items: center;
 }
 
 .is-hidden {
